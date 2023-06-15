@@ -1,3 +1,4 @@
+"use client"
 import { usePathname } from "next/navigation";
 import DesktopMenu from "./DesktopMenu";
 import MobileMenu from "./MobileMenu";

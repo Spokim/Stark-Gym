@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   description:
     "Join Stark Gym and unlock your full potential. We are dedicated to helping you achieve your fitness goals with state-of-the-art facilities, expert trainers, and a motivating environment.",
 };
+
 const page = () => {
   return (
     <div className="flex flex-col mb-4 ">

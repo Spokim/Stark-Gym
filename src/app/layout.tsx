@@ -1,4 +1,3 @@
-"use client";
 import { cn } from "@/lib/utils";
 import "@/styles/globals.css";
 import { Inter } from "next/font/google";
@@ -29,12 +28,3 @@ export default function RootLayout({
     </html>
   );
 }
-/*
-    const [itemsInShoppingCart, setItemsInShoppingCart] =
-    useState<boolean>(false);
-
-  const handleShoppingCart = (e: React.MouseEvent<HTMLButtonElement>) => {
-    e.preventDefault();
-    setItemsInShoppingCart(true);
-  };
-  */
