@@ -11,7 +11,7 @@ import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { useContext, useState } from "react";
 
-const page: React.FC = () => {
+const Page: React.FC = () => {
   const { setItemsInShoppingCart } = useContext(ShoppingCartContext);
   const [counter, setCounter] = useState<number>(1);
 
@@ -109,4 +109,4 @@ const page: React.FC = () => {
   );
 };
 
-export default page;
+export default Page;

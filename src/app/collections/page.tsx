@@ -47,7 +47,7 @@ const page = () => {
           Clothing
         </Heading>
         <div className="flex flex-row gap-4">
-          {storehelp().informationCloths.map((item) => (
+          {storehelp().informationCloths.map((item, index) => (
             <Link
               href={{
                 pathname: "/collections/store",
@@ -65,6 +65,7 @@ const page = () => {
                 alt={item.alt}
                 text={item.text}
                 price={item.price}
+                key={index}
               />
             </Link>
           ))}
@@ -75,7 +76,7 @@ const page = () => {
           Products
         </Heading>
         <div className="flex flex-row gap-4">
-          {storehelp().informationProducts.map((item) => (
+          {storehelp().informationProducts.map((item, index) => (
             <Link
               href={{
                 pathname: "/collections/store",
@@ -93,6 +94,7 @@ const page = () => {
                 alt={item.alt}
                 text={item.text}
                 price={item.price}
+                key={index}
               />
             </Link>
           ))}
