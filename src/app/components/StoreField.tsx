@@ -19,7 +19,6 @@ const StoreField = ({ text }: StoreFieldProps) => {
       option: ["Vanilla", "Chocholate", "Strawberry", "Banana"],
     },
 ];
-  console.log(storeform[1].option);
   let i = 0;
   switch (text) {
     case "CHOACH":
