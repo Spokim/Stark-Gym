@@ -13,7 +13,7 @@ const Featured = () => {
         <span className="text-red-500 flex justify-center">VIEW ALL</span>
         <Image
           src="/Coaching.png"
-          alt=""
+          alt="Picture of a a coach"
           width={400}
           height={400}
           className="rounded-md"
@@ -27,7 +27,7 @@ const Featured = () => {
         <span className="text-red-500 flex justify-center">VIEW ALL</span>
         <Image
           src="/Cloths.png"
-          alt=""
+          alt="Picture of cloths on racks inside a wardrobe"
           width={400}
           height={400}
           className="rounded-md"
@@ -41,7 +41,7 @@ const Featured = () => {
         <span className="text-red-500 flex justify-center">VIEW ALL</span>
         <Image
           src="/Products.png"
-          alt=""
+          alt="picture of pretein powder"
           width={400}
           height={400}
           className="rounded-md"
