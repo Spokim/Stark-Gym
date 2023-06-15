@@ -30,6 +30,7 @@ const page = () => {
                   textInput: "CHOACH",
                 },
               }}
+              key={index}
             >
               <Card
                 image={item.image}
@@ -59,6 +60,7 @@ const page = () => {
                   textInput: "SIZE",
                 },
               }}
+              key={index}
             >
               <Card
                 image={item.image}
@@ -88,6 +90,7 @@ const page = () => {
                   textInput: "PRODUCT",
                 },
               }}
+              key={index}
             >
               <Card
                 image={item.image}
