@@ -36,6 +36,7 @@ const page = () => {
                 alt={item.alt}
                 text={item.text}
                 price={item.price}
+                key={index}
               />
             </Link>
           ))}

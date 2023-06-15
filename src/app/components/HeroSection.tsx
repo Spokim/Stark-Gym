@@ -15,7 +15,7 @@ const HeroSection = () => {
             Specialized Expertise:
           </Paragraph>
           <Paragraph>
-            Benefit from our trainers' expertise in muscle building and strength
+            Benefit from our trainers&apos; expertise in muscle building and strength
             training for personalized programs and effective results. Our team
             stays up to date with the latest research and techniques to ensure
             you receive the most cutting-edge guidance in your fitness journey.
