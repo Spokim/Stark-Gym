@@ -11,8 +11,11 @@ import {
 } from "@radix-ui/react-dropdown-menu";
 import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 import Link from "next/link";
+import { useContext } from "react";
+import { ShoppingCartContext } from "./ShoppingCartContext";
 
 const MobileMenu = () => {
+  const { itemsInShoppingCart } = useContext(ShoppingCartContext);
   return (
     <div className="text-white flex justify-between items-center h-full px-6">
       <DropdownMenu>
@@ -42,6 +45,11 @@ const MobileMenu = () => {
         STARK GYM
       </Link>
       <Link href="/cart">
+        {itemsInShoppingCart && (
+          <span className="absolute h-[10px] w-[10px] rounded bg-red-500">
+            {" "}
+          </span>
+        )}
         <FontAwesomeIcon icon={faShoppingCart} style={{ color: "#ffffff" }} />
       </Link>
     </div>
@@ -49,4 +57,3 @@ const MobileMenu = () => {
 };
 
 export default MobileMenu;
-

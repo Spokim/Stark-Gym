@@ -13,11 +13,11 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <section className="flex min-h-screen flex-col items-center justify-center mb-8">
-      <div>
+      <div className="">
         <Heading size="sm" className="text-left my-4">
           Coaching
         </Heading>
-        <div className="flex flex-row gap-4">
+        <div className="grid grid-cols-2 md:flex md:flex-row gap-4">
           {storehelp().informationCoach.map((item, index) => (
             <Link
               href={{
@@ -47,7 +47,7 @@ const page = () => {
         <Heading size="sm" className="text-left my-4">
           Clothing
         </Heading>
-        <div className="flex flex-row gap-4">
+        <div className="grid grid-cols-2 md:flex md:flex-row gap-4">
           {storehelp().informationCloths.map((item, index) => (
             <Link
               href={{
@@ -77,7 +77,7 @@ const page = () => {
         <Heading size="sm" className="text-left my-4">
           Products
         </Heading>
-        <div className="flex flex-row gap-4">
+        <div className="grid grid-cols-2 md:flex md:flex-row gap-4">
           {storehelp().informationProducts.map((item, index) => (
             <Link
               href={{
