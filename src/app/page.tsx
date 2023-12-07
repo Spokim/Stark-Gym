@@ -15,7 +15,7 @@ export const metadata: Metadata = {
       "Join Stark Gym and unlock your full potential. We are dedicated to helping you achieve your fitness goals with state-of-the-art facilities, expert trainers, and a motivating environment.",
     images: [
       {
-        url: "stark-gym.vercel.app/public/images/CTA-01.jpg",
+        url: "stark-gym.vercel.app/images/CTA-01.jpg",
         width: 1200,
         height: 630,
         alt: "Stark Gym",
